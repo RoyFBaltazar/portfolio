@@ -5,7 +5,7 @@ import Star from '../images/star.jpg'
 import BlogApi from '../images/herokuapp.jpg'
 import Run from '../images/run1.jpg'
 const Home=()=>{
-    return(<Container fluid style={{marginTop: '3.875rem'}}>
+    return(<Container  style={{marginTop: '3.875rem'}}>
         
 <Row>
     <Col className="col-sm-4">
