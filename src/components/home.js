@@ -23,7 +23,7 @@ const Home=()=>{
 The API protects API with a hashed password. Usernames/Emails must also be unique during the registration process.</p>
         <br/>
         <h4>Star Wars Ships Site</h4>
-        <div className="fakeimg"><img  style={{height: '18.75rem' }} alt='Star Wars screenshot' src={Star}/></div>
+        <div className="fakeimg"><Image  style={{height: '18.75rem' }} alt='Star Wars screenshot' src={Star}/></div>
         <p>Site: <a href="https://curious-palmier-2d9226.netlify.app/"> Star Wars Ships</a></p>
         <p>descriptions:</p>
         <br/>
