@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import Pokemon from '../images/pokesite.jpg'
 import FullStack from '../images/fullstacktete.jpg'
 import Star from '../images/star.jpg'
@@ -17,7 +17,7 @@ const Home=()=>{
     <Col className="col-sm-8">
         <h1>Projects</h1>
         <h4>Full Stack App</h4>
-        <div ><img alt="Full Stack screenshot"  style={{height: '18.75rem' }} src= {FullStack}/></div>
+        <div ><Image alt="Full Stack screenshot" fluid style={{height: '18.75rem' }} src= {FullStack}/></div>
         <p>Site: <a href="https://pensive-torvalds-e27272.netlify.app/"> Tete-a-Tete</a></p>
         <p>A blog API that allows user to register with Authorization Schema. User receives a Token at the header, with the token the user can access Public blogs and create a blog with a username at the endpoint. User can also find blog and can adjust/delete blog with id.
 The API protects API with a hashed password. Usernames/Emails must also be unique during the registration process.</p>
@@ -28,11 +28,11 @@ The API protects API with a hashed password. Usernames/Emails must also be uniqu
         <p>descriptions:</p>
         <br/>
         <h4>Pokemon Favorites/Battle</h4>
-        <div ><img style={{height: '18.75rem' }} alt='Pokemon site screenshot' src={Pokemon}/></div>
+        <div ><Image style={{height: '18.75rem' }} alt='Pokemon site screenshot' src={Pokemon}/></div>
         <p>Site: <a href="https://cocky-cori-107aac.netlify.app/"> Pokemon Favorites/Battle </a></p>
         <p>descriptions:</p>
         <br/>    <h4>Blog API</h4>
-        <div className="fakeimg"><img style={{height: '18.75rem' }} alt='Blog API screenshot' src={BlogApi}/></div>
+        <div className="fakeimg"><Image style={{height: '18.75rem' }} alt='Blog API screenshot' src={BlogApi}/></div>
         <p>Site:<a href="https://roys-blog-app.herokuapp.com/"> Blog API</a></p>
         <p>descriptions:</p>
         <br/>
