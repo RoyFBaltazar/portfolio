@@ -13,6 +13,13 @@ const Home=()=>{
         <div className="fakeimg"><Image style={{height: '18.75rem' }} fluid className='img-fluid rounded-circle' alt='running' src={Run}/></div>
         <p>I am a detail-oriented Software Engineer who gains great satisfaction from building new applications, learning new technologies, along with resolving complex technical problems. An enduring learner, I value the opportunity to be part of a passionate team 
         of professionals dedicated to mentorship, growth, and achieving excellence.</p>
+        <h3>Skills</h3>
+        <ul className="list-group list-group-flush">
+        <li className="list-group-item active">Javascript</li>
+        <li className="list-group-item">Node JS</li>
+        <li className="list-group-item">CSS</li>
+        <li className="list-group-item">React</li>
+        </ul>
     </Col>
     <Col className="col-sm-8">
         <h1>Projects</h1>
