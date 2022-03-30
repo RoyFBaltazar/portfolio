@@ -29,11 +29,14 @@ const Home=()=>{
         <p>A blog API that allows user to register with Authorization Schema. User receives a Token at the header, with the token the user can access Public blogs and create a blog with a username at the endpoint. User can also find blog and can adjust/delete blog with id.
 The API protects API with a hashed password. Usernames/Emails must also be unique during the registration process.</p>
         <br/>
+        
         <h4>Star Wars Ships Site</h4>
         <Image  style={{height: '18.75rem' }} fluid alt='Star Wars screenshot' src={Star}/>
         <p>Site: <a href="https://curious-palmier-2d9226.netlify.app/"> Star Wars Ships</a></p>
         <p>descriptions:</p>
+        
         <br/>
+
         <h4>Pokemon Favorites/Battle</h4>
       <Image style={{height: '18.75rem' }} fluid alt='Pokemon site screenshot' src={Pokemon}/>
         <p>Site: <a href="https://cocky-cori-107aac.netlify.app/"> Pokemon Favorites/Battle </a></p>
