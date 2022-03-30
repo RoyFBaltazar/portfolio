@@ -23,16 +23,16 @@ const Home=()=>{
 The API protects API with a hashed password. Usernames/Emails must also be unique during the registration process.</p>
         <br/>
         <h4>Star Wars Ships Site</h4>
-        <div className="fakeimg"><Image  style={{height: '18.75rem' }} alt='Star Wars screenshot' src={Star}/></div>
+        <Image  style={{height: '18.75rem' }} fluid alt='Star Wars screenshot' src={Star}/>
         <p>Site: <a href="https://curious-palmier-2d9226.netlify.app/"> Star Wars Ships</a></p>
         <p>descriptions:</p>
         <br/>
         <h4>Pokemon Favorites/Battle</h4>
-        <div ><Image style={{height: '18.75rem' }} alt='Pokemon site screenshot' src={Pokemon}/></div>
+      <Image style={{height: '18.75rem' }} fluid alt='Pokemon site screenshot' src={Pokemon}/>
         <p>Site: <a href="https://cocky-cori-107aac.netlify.app/"> Pokemon Favorites/Battle </a></p>
         <p>descriptions:</p>
         <br/>    <h4>Blog API</h4>
-        <div className="fakeimg"><Image style={{height: '18.75rem' }} alt='Blog API screenshot' src={BlogApi}/></div>
+        <Image style={{height: '18.75rem' }} fluid alt='Blog API screenshot' src={BlogApi}/>
         <p>Site:<a href="https://roys-blog-app.herokuapp.com/"> Blog API</a></p>
         <p>descriptions:</p>
         <br/>
