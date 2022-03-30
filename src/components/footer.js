@@ -1,6 +1,6 @@
 const Footer =()=>{
     return(<div style={{marginBottom: '1%'}}>
-ghg
+Designed and Built by Roy F Baltazar
     </div>
 
     )

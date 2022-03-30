@@ -10,12 +10,12 @@ const Home=()=>{
 <Row>
     <Col className="col-sm-4">
         <h2>About Me</h2>
-        <div className="fakeimg"><img style={{height: '18.75rem' }} alt='running' src={Run}/></div>
+        <div className="fakeimg"><img style={{height: '18.75rem' }} className='img-fluid rounded-circle' alt='running' src={Run}/></div>
         <p>I am a detail-oriented Software Engineer who gains great satisfaction from building new applications, learning new technologies, along with resolving complex technical problems. An enduring learner, I value the opportunity to be part of a passionate team 
         of professionals dedicated to mentorship, growth, and achieving excellence.</p>
     </Col>
     <Col className="col-sm-8">
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <h4>Full Stack App</h4>
         <div ><img alt="Full Stack screenshot"  style={{height: '18.75rem' }} src= {FullStack}/></div>
         <p>Site: <a href="https://pensive-torvalds-e27272.netlify.app/"> Tete-a-Tete</a></p>
